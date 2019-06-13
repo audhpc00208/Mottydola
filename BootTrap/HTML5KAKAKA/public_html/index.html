@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+   <head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Tập đoàn chợ nổi Cái Răng</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  .jumbotron {
+/*    background-color: #f4511e;*/
+      background-image: url('image/logo.jpg');
+      color: blue;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+  .thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #f4511e;
+}
+
+.carousel-indicators li {
+  border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+  background-color: #f4511e;
+}
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+
+.item span {
+  font-style: normal;
+}
+.panel {
+  border: 1px solid #f4511e; 
+  border-radius:0;
+  transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+  border: 1px solid #f4511e;
+  background-color: #fff !important;
+  color: #f4511e;
+}
+
+.panel-heading {
+  color: #fff !important;
+  background-color: #f4511e !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+  background-color: #fff !important;
+}
+
+.panel-footer h3 {
+  font-size: 32px;
+}
+
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #f4511e;
+  color: #fff;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: #f4511e;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #f4511e;
+}
+  </style>
+  <footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Bootstrap Theme Made By <a href="https://www.chonoicairang.com.vn" title="Visit chonoicairang">www.chonoicairang.com.vn</a></p> 
+</footer>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Trải nghiệm 1 ngày trên chợ nổi</h1> 
+  <p>Chào mừng bạn đến với quán bún chợ nổi ven sông</p> 
+  <form class="form-inline">
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Điều bạn muốn trải nghiệm ở chợ nổi" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Tìm kiếm</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Container (About Section) -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Chợ nổi</h2>
+   
+      <button class="btn btn-default btn-lg">Bạn Cảm Thấy Như Thế Nào Khi 1 ngày lạc trôi trên sông</button>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Ở đây có</h2>
+      <h4><strong>Nhiều tàu thuyền buôn bán trên sông</strong> Our mission lorem ipsum..</h4>      
+      <p><strong>VISION:</strong>Nhiều món ngon và phong cảnh tham quan vô cùng đẹp</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Services Section) -->
+<div class="container-fluid text-center">
+  <h2>Dịch vụ </h2>
+  <h4>Bạn đã thử chưa</h4>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>Giá tiền </h4>
+      <p>Hợp lí túi tiền của bạn cho một chuyến tham quan bằng thuyền</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>Mến Khách</h4>
+      <p>Người dân buôn bán trên sông chợ nổi cực kì mến khách...</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-glass logo-small"></span>
+      <h4>Món ăn</h4>
+      <p>Quy tụ nhiều món ăn dân dả truyền thống khắp bốn miền Việt Nam: Bún rêu,bún rêu,phá lấu,bánh canh,chè... </p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf bl"></span>
+      <h4><strong>Thoáng Mát</strong></h4>
+      <p>Phong cảnh sông nước trải dài rông lớn mang lại một vẻ đẹp phong cảnh và bầu không khí vô cùng dễ chịu.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>Quà tặng</h4>
+      <p>Nhiều món quà mặt hàng lưu niêm hấp dẫn khi khách đến chơi và tham quan.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-asterisk logo-small"></span>
+      <h4 style="color:#303030;">Trái cây</h4>
+      <p>Trái cây có nhiều loại đăc sản của nhiều miền:dú sửa,sầu riêng,mãn cầu,thanh long,bơ,nho..</p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid text-center bg-grey">
+  <h2>Hình ảnh bao quát về cảnh địa danh chợ nổi</h2>
+  <h4>Bạn muốn tìm kiếm và trải nghiệm điều gì ở đây?</h4>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="image/n1.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Chợ nổi Cái Răng</strong></p>
+        <p>Nhiều tàu ghê tấp nập</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="image/n2.jpg" alt="New York" width="400" height="300">
+        <p><strong>Chợ nổi Cái Răng</strong></p>
+        <p>Hoạt động buôn bán trên sống hết sức nhộn nhịp</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="image/nen3.jpg" alt="San Francisco" width="400" height="300">
+        <p><strong>Chợ nổi Cái Răng</strong></p>
+        <p>Hoạt động ăn uống vui vẻ nhộn nhịp trên sông nước.</p>
+      </div>
+    </div>
+</div>
+</div>
+<div class="container-fluid">
+  <div class="text-center">
+    <h2>Bảng giá</h2>
+    <h4>Những mức giá tiền khi hành khách đến tham quan nên chuẩn bị để có trải nghiệm tốt nhất</h4>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Tối thiểu</h1>
+        </div>
+        <div class="panel-body">
+          
+        </div>
+        <div class="panel-footer">
+          <h3>700.000vnđ</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div> 
+    </div> 
+    <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Trung Bình</h1>
+        </div>
+        <div class="panel-body">
+         
+        </div>
+        <div class="panel-footer">
+          <h3>1.550.000vnđ</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div> 
+    </div> 
+   <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Max</h1>
+        </div>
+        <div class="panel-body">
+         
+        </div>
+        <div class="panel-footer">
+          <h3>2.500.000vnđ</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div> 
+    </div> 
+  </div>
+</div>
+<div class="container-fluid bg-grey">
+  <h2 class="text-center">Đánh giá nhận xét của bạn</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Chợ nổi Cái Răng, Cần Thơ</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> 
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Gửi</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+<img src="image/n4.jpg" style="width:100%">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+     <a class="navbar-brand" href="#"> </a>
+  
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#services">Tin tức-Sự kiện</a></li>
+        <li><a href="#portfolio">Điểm đến</a></li>
+        <li><a href="#pricing">Ẩm thực</a></li>
+        <li><a href="#contact">Dịch vụ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</body>
+</html>
